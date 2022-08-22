@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+}
+
+.list {
+    width: 980px;
+    margin-right: 30px;
+    border-radius: 5px;
+}

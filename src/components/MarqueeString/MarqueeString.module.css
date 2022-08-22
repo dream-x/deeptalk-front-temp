@@ -1,0 +1,16 @@
+.marqueeWrapper {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 35px;
+}
+
+.marquee:first-child{
+    margin-left: 0;
+}
+
+.marquee {
+    margin-left: 3rem;
+    white-space: nowrap;
+}

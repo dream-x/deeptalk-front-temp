@@ -1,0 +1,16 @@
+.showButton {
+    display: flex;
+}
+
+.showLoader {
+    display: flex;
+    min-width: 100px;
+}
+
+.showLoader .loader-container {
+    margin-bottom: 15px;
+}
+
+.hideButton {
+    display: none;
+}

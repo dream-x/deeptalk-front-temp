@@ -1,0 +1,34 @@
+.containerChat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.state {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+.strongStrong {
+    margin-left: 5px
+}
+
+.chatItemMe {
+    display: flex;
+    justify-content: flex-end;
+}
+.chatItemOther {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.chatItemText {
+    background: gray;
+    padding: 1rem;
+    border-radius: 30%;
+}

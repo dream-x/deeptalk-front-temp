@@ -1,0 +1,25 @@
+name: CI Container Registry
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Yandex Cloud CR "Login"
+        run: docker login --username oauth --password ${{ secrets.YC_SA_JSON_CREDENTIALS }} cr.yandex
+      - name: Build, tag, and push image to Yandex Cloud Container Registry
+        env:
+          CR_REGISTRY: crpqjulh3iuo8018et5j
+          CR_REPO: deeptalk-frontend
+          IMAGE_VERSION: v0.0.2
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          docker build -t cr.yandex/$CR_REGISTRY/$CR_REPO:latest -t cr.yandex/$CR_REGISTRY/$CR_REPO:$IMAGE_VERSION .
+          docker push cr.yandex/$CR_REGISTRY/$CR_REPO:latest
+          docker push cr.yandex/$CR_REGISTRY/$CR_REPO:$IMAGE_VERSION

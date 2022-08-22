@@ -1,0 +1,67 @@
+{
+  "GetBackButtonLabel":                 "Вернуться назад",
+  "StartButtonLabel":                   "Начать",
+  "StopButtonLabel":                    "Завершить",
+  "RaiseHandButtonLabel":               "Поднять руку",
+  "PauseButtonLabel":                   "Пауза",
+  "SkipButtonLabel":                    "Пропустить",
+  "ContinueButtonLabel":                "Продолжить",
+  "RunQuestionButtonLabel":             "Слушать вопрос",
+  "StopQuestionButtonLabel":            "Остановить вопрос",
+  "GiveAnswerQuestionButtonLabel":      "Ответить на вопрос",
+
+  "DemoFullUserName":                   "Мария Образцова",
+  "DemoUserPosition":                   "Директор Института дополнительного образования АНО ВО \"Университет Иннополис\"",
+  "DemoMainDescription":                "Одно из описаний будущего мира – «Вертикальный мир». Исследователи проанализировали с какой скоростью новые технологии проникают на рынок до охвата 90% населения. Любая технология с высокой потребительской ценностью захватывает рынок практически мгновенно. В 2038 году скорость 90% охвата рынка будет исчисляться секундами.",
+  "DemoLessonName":                     "Лекция «Искусственный Интеллект»",
+  "FooterDescription":                  "Технология, которая изменит методику обучения",
+  "FooterCopyMessage":                  "CDO Global",
+  "FooterCopyMessageDate":              "2009-{{date}}",
+  "ResponseProcessingErrorMessage":     "Ошибка обработки ответа \"{{message}}\"",
+  "PleaseListenLecturer":               "Слушайте пожалуйста лектора",
+  "PleaseAnswerQuestion":               "Ответьте пожалуйста на вопрос",
+  "PleaseAskQuestion":                  "Задайте пожалуйста вопрос",
+  "VideoQuestionsTitle":                "Вопросы к видео",
+  "QuestionFromAuditor":                "Вопрос от аудитора",
+  "YourReply":                          "Ваш ответ",
+
+  "NumericSymbol":                      "№",
+
+  "ConsoleCommandPause":                "КОМАНДА пауза",
+  "ConsoleCommandPauseCannotExecuted":  "КОМАНДА пауза не может быть выполнена корректно без запуска сценария лекции",
+  "ConsoleCommandNotImplemented":       "КОМАНДА дальше не реализована",
+  "ConsoleSomethingWrong":              "Что то пошло не так \"{{param1}}\" \"{{param2}}\"",
+  "ConsoleNoTrackController":           "Контроллер трека не найден",
+
+  "NavLinkLecture":                     "Лекция",
+  "NavLinkLessons":                     "Уроки",
+  "NavLinkRecognition":                 "Распознавание",
+  "NavLinkQuestionBook":                "Книга",
+  "NavLinkTalk":                        "Разговор",
+
+  "AvailableLessons":                   "Доступные уроки",
+
+  "Lesson3Name":                        "Сформулировать основную мысль одним предложением",
+  "Lesson4Name":                        "Развить идею",
+  "Lesson5Name":                        "В чем сходство и отличие?",
+
+  "PassedLabel":                        "Сдал",
+  "DidNotPassLabel":                    "Не сдал",
+
+  "ResultsQuestionsTitle":              "Результаты",
+
+  "RecognitionResult":                  "Результат распознавания",
+  "UseDragNDropInformationTitle":       "Перетащите несколько файлов сюда или нажмите, чтобы выбрать файлы",
+  "DragNDropAcceptFilesJpegPng":        "Принимаются только изображения *.jpeg и *.png",
+
+  "PageEnglishTitle":                   "Exercises for spoken english",
+  "PageEnglishSubtitle":                "",
+  "PageEnglishDescription":             "<p>With these exercises you train: </p><ul>   <li>English listening comprehension;</li>    <li>Understanding the context;</li>    <li>Develop your speech.</li></ul><p>How it works:</p><ul>    <li>Read the name of the exercise - this is the task</li>    <li>Click \"Listen question\" - the digital teacher will speak the text of the exercise</li> <li>And only when you are ready - click \"Answer the question\"</li>    <li>In the \"Result\" field - see the result instantly</li></ul><p>If you need help - write to <a href='mailto:together@deeptalk.tech'>together@deeptalk.tech</a></p>",
+
+  "PageQuestionBookTitle":              "",
+  "PageQuestionBookSubtitle":           "",
+  "PageQuestionBookDescription":        "",
+  "PageQuestionBookComponentTitle":     "Answers to questions from the book",
+  "AskYourQuestion":                    "Задайте свой вопрос (на русском языке)",
+  "NowAsk":                             "Сейчас спрашивают"
+}

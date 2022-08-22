@@ -1,0 +1,67 @@
+{
+  "GetBackButtonLabel":                 "Get back",
+  "StartButtonLabel":                   "Launch",
+  "StopButtonLabel":                    "End",
+  "RaiseHandButtonLabel":               "Raise hand",
+  "PauseButtonLabel":                   "Pause",
+  "SkipButtonLabel":                    "Skip",
+  "ContinueButtonLabel":                "Continue",
+  "RunQuestionButtonLabel":             "Listen question",
+  "StopQuestionButtonLabel":            "Stop question",
+  "GiveAnswerQuestionButtonLabel":      "Answer the question",
+
+  "DemoFullUserName":                   "Maria obraztsova",
+  "DemoUserPosition":                   "Head of the Extended Education Institution Autonomous Non-Commercial Organization of Higher Education “Innopolis University”",
+  "DemoMainDescription":                "One of the future world descriptions – Vertical World. The researchers studied the speed of new technologies penetrating the market prior to cover 90% of the population. Any technology being of a high customer value captures the market almost immediately. In 2038, the speed of 90% coverage of the market will amount to seconds.",
+  "DemoLessonName":                     "Artificial intelligence lecture",
+  "FooterDescription":                  "Technology to change teaching methodology",
+  "FooterCopyMessage":                  "CDO Global",
+  "FooterCopyMessageDate":              "2009-{{date}}",
+  "ResponseProcessingErrorMessage":     "Error processing the response \"{{message}}\"",
+  "PleaseListenLecturer":               "Please listen to the lecturer",
+  "PleaseAnswerQuestion":               "Please answer the question",
+  "PleaseAskQuestion":                  "Please ask a question",
+  "VideoQuestionsTitle":                "Questions to the video",
+  "QuestionFromAuditor":                "Question from the auditor",
+  "YourReply":                          "Your answer",
+
+  "NumericSymbol":                      "#",
+
+  "ConsoleCommandPause":                "COMMAND pause",
+  "ConsoleCommandPauseCannotExecuted":  "COMMAND pause cannot be executed correctly without running lecture script",
+  "ConsoleCommandNotImplemented":       "COMMAND is no longer implemented",
+  "ConsoleSomethingWrong":              "Something gone wrong with \"{{param1}}\" \"{{param2}}\"",
+  "ConsoleNoTrackController":           "No track controller found",
+
+  "NavLinkLecture":                     "Lecture",
+  "NavLinkLessons":                     "Lessons",
+  "NavLinkRecognition":                 "Recognition",
+  "NavLinkQuestionBook":                "Books",
+  "NavLinkTalk":                        "Talk",
+
+  "AvailableLessons":                   "Available lessons",
+
+  "Lesson3Name":                        "Formulate the main idea in one sentence",
+  "Lesson4Name":                        "Develop an idea",
+  "Lesson5Name":                        "What is common and different?",
+
+  "PassedLabel":                        "Passed",
+  "DidNotPassLabel":                    "Did not pass",
+
+  "ResultsQuestionsTitle":              "Results",
+
+  "RecognitionResult":                  "Recognition result",
+  "UseDragNDropInformationTitle":       "Drag 'n' drop some files here, or click to select files",
+  "DragNDropAcceptFilesJpegPng":        "Only *.jpeg and *.png images will be accepted",
+
+  "PageEnglishTitle":                   "Exercises for spoken english",
+  "PageEnglishSubtitle":                "",
+  "PageEnglishDescription":             "<p>With these exercises you train: </p><ul>   <li>English listening comprehension;</li>    <li>Understanding the context;</li>    <li>Develop your speech.</li></ul><p>How it works:</p><ul>    <li>Read the name of the exercise - this is the task</li>    <li>Click \"Listen question\" - the digital teacher will speak the text of the exercise</li> <li>And only when you are ready - click \"Answer the question\"</li>    <li>In the \"Result\" field - see the result instantly</li></ul><p>If you need help - write to <a href='mailto:together@deeptalk.tech'>together@deeptalk.tech</a></p>",
+
+  "PageQuestionBookTitle":              "",
+  "PageQuestionBookSubtitle":           "",
+  "PageQuestionBookDescription":        "",
+  "PageQuestionBookComponentTitle":     "Answers to questions from the book",
+  "AskYourQuestion":                    "Ask your question (in Russian)",
+  "NowAsk":                             "Now ask"
+}

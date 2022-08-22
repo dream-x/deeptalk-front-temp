@@ -1,0 +1,73 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    box-shadow: 0 0 4px 0 #0000003d;
+    padding: 10px;
+    background-color: #EDEDED;
+}
+
+.title {
+    font-size: 1.625em;
+    margin-bottom: 1.125em;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.raiseHandShow {
+    display: flex;
+}
+
+.microphoneShow {
+    display: flex;
+}
+
+.microphoneShow button svg {
+    webkit-animation: rainbow 2s linear 1s infinite;
+    animation: rainbow 2s linear 1s infinite;
+}
+
+.invisible {
+    display: none;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        fill: #74d414;
+    }
+    25% {
+        fill: #519310
+    }
+    50% {
+        fill: #30580a
+    }
+    675% {
+        fill: #519310
+    }
+    100% {
+        fill: #74d414;
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        fill: #74d414;
+    }
+    25% {
+        fill: #519310
+    }
+    50% {
+        fill: #30580a
+    }
+    675% {
+        fill: #519310
+    }
+    100% {
+        fill: #74d414;
+    }
+}
